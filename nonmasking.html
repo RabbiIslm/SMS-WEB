@@ -17,6 +17,63 @@
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
 
     <link rel="stylesheet" href="assets/css/style.css" />
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .columns {
+          float: left;
+          width: 33.3%;
+          padding: 8px;
+        }
+        
+        .price {
+          list-style-type: none;
+          border: 1px solid #eee;
+          margin: 0;
+          padding: 0;
+          -webkit-transition: 0.3s;
+          transition: 0.3s;
+        }
+        
+        .price:hover {
+          box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+        }
+        
+        .price .header {
+          background-color: #111;
+          color: white;
+          font-size: 25px;
+        }
+        
+        .price li {
+          border-bottom: 1px solid #eee;
+          padding: 20px;
+          text-align: center;
+        }
+        
+        .price .grey {
+          background-color: #eee;
+          font-size: 20px;
+        }
+        
+        .button {
+          background-color: #4CAF50;
+          border: none;
+          color: white;
+          padding: 10px 25px;
+          text-align: center;
+          text-decoration: none;
+          font-size: 18px;
+        }
+        
+        @media only screen and (max-width: 600px) {
+          .columns {
+            width: 100%;
+          }
+        }
+        </style>
   </head>
 
   <body>
@@ -99,7 +156,7 @@
             <div class="cta-content">
               <br />
               <br />
-              <h2>Feel free to <em>Contact Us</em></h2>
+              <h2>NON MASKING <em>SMS</em></h2>
               <p>Details Are Given Below Please Check</p>
             </div>
           </div>
@@ -107,136 +164,93 @@
       </div>
     </section>
 
-    <!-- ***** Features Item Start ***** -->
-    <section class="section" id="features">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-md-6 offset-md-3">
-            <div class="section-heading">
-              <h2>contact <em> info</em></h2>
-              <img src="assets/images/line-dec.png" alt="waves" />
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="icon">
-              <i class="fa fa-phone"></i>
-            </div>
-
-            <h5>
-              <a href="#"
-                >+880 1840 325244, <br />
-                +880 1842 325244, (Whatsapp) <br />
-                +880 963 9125244
-              </a>
-            </h5>
-
-            <br />
-          </div>
-
-          <div class="col-md-4">
-            <div class="icon">
-              <i class="fa fa-envelope"></i>
-            </div>
-
-            <h5>
-              <a href="#"
-                >support@mastertech.com.bd <br />
-                riyad138044@gmail.com</a
-              >
-            </h5>
-
-            <br />
-          </div>
-
-          <div class="col-md-4">
-            <div class="icon">
-              <i class="fa fa-map-marker"></i>
-            </div>
-
-            <h5>
-              <a href="#"
-                >New Market (5th Floor), <br />
-                Kandirpar, Cumilla-3500.
-              </a>
-            </h5>
-
-            <br />
-          </div>
-        </div>
+    <!-- info starts here -->
+    <div class="columns">
+        <ul class="price">
+          <li class="header" style="background-color: #008cff">Basic</li>
+          <li class="grey">PRICE ৳ 600 BDT <br> .৩০৳ / SMS</li>
+          <li><span>Quantity: </span> 2000</li>
+          <li><span>validity</span>1 Year</li>
+  
+          <li><span>Sender ID:</span>Fixed</li>
+  
+          <li><span>Incoming SMS Forward:</span> Yes</li>
+  
+          <li><span>API Access :</span> Yes</li>
+  
+          <li><span>WordPress Plugin :</span> Yes</li>
+  
+          <li><span>Fast Delivery :</span> Yes</li>
+  
+          <li><span>Delivery Report :</span>Yes</li>
+  
+          <li><span>Formats :</span>88017,017,17</li>
+  
+          <li><span>Group And File SMS :</span>Yes</li>
+  
+          <li><span>Dynamic SMS :</span> Yes (From xlsx)</li>
+          <li class="grey"><a href="contact.html" class="button">Order Now</a></li>
+        </ul>
       </div>
-    </section>
-    <!-- ***** Features Item End ***** -->
-
-    <!-- ***** Contact Us Area Starts ***** -->
-    <section class="section" id="contact-us" style="margin-top: 0">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-6 col-md-6 col-xs-12">
-            <div id="map">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.9709688577236!2d91.17996546550798!3d23.461511655666307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37547f2f8b565241%3A0x2801ddfaefdddaa!2sNew%20Market%2C%20Comilla!5e0!3m2!1sen!2sbd!4v1616305547903!5m2!1sen!2sbd=embed"
-                width="100%"
-                height="600px"
-                frameborder="0"
-                style="border: 0"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </div>
-          <div class="col-md-6 col-md-6 col-xs-12">
-            <div
-              class="contact-form section-bg"
-              style="background-image: url(assets/images/contact-1-720x480.jpg)"
-            >
-              <form id="contact" action="" method="post">
-                <div class="row">
-                  <div class="col-md-6 col-sm-12">
-                    <fieldset>
-                      <input name="name" type="text" id="name" placeholder="Your Name*" required="" />
-                    </fieldset>
-                  </div>
-                  <div class="col-md-6 col-sm-12">
-                    <fieldset>
-                      <input
-                        name="email"
-                        type="text"
-                        id="email"
-                        pattern="[^ @]*@[^ @]*"
-                        placeholder="Your Email*"
-                        required=""
-                      />
-                    </fieldset>
-                  </div>
-                  <div class="col-md-12 col-sm-12">
-                    <fieldset>
-                      <input name="subject" type="text" id="subject" placeholder="Subject" />
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-12">
-                    <fieldset>
-                      <textarea
-                        name="message"
-                        rows="6"
-                        id="message"
-                        placeholder="Message"
-                        required=""
-                      ></textarea>
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-12">
-                    <fieldset>
-                      <button type="submit" id="form-submit" class="main-button">Send Message</button>
-                    </fieldset>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
+  
+      <div class="columns">
+        <ul class="price">
+          <li class="header" style="background-color: #ff7b00">Gold</li>
+          <li class="grey">PRICE ৳ 1450 BDT <br> .২৯৳ / SMS</li>
+          <li><span>Quantity: </span> 5000</li>
+          <li><span>validity</span>1 Year</li>
+  
+          <li><span>Sender ID:</span>Fixed</li>
+  
+          <li><span>Incoming SMS Forward:</span> Yes</li>
+  
+          <li><span>API Access :</span> Yes</li>
+  
+          <li><span>WordPress Plugin :</span> Yes</li>
+  
+          <li><span>Fast Delivery :</span> Yes</li>
+  
+          <li><span>Delivery Report :</span>Yes</li>
+  
+          <li><span>Formats :</span>88017,017,17</li>
+  
+          <li><span>Group And File SMS :</span>Yes</li>
+  
+          <li><span>Dynamic SMS :</span> Yes (From xlsx)</li>
+  
+          <li class="grey"><a href="contact.html" class="button">Order Now</a></li>
+        </ul>
       </div>
-    </section>
-    <!-- ***** Contact Us Area Ends ***** -->
+  
+      <div class="columns">
+        <ul class="price">
+          <li class="header" style="background-color: #4caf50">Premium</li>
+          <li class="grey">PRICE ৳ 2800 BDT <br> .২৮৳ / SMS</li>
+          <li><span>Quantity: </span> 10000</li>
+          <li><span>validity</span>1 Year</li>
+  
+          <li><span>Sender ID:</span>Fixed</li>
+  
+          <li><span>Incoming SMS Forward:</span> Yes</li>
+  
+          <li><span>API Access :</span> Yes</li>
+  
+          <li><span>WordPress Plugin :</span> Yes</li>
+  
+          <li><span>Fast Delivery :</span> Yes</li>
+  
+          <li><span>Delivery Report :</span>Yes</li>
+  
+          <li><span>Formats :</span>88017,017,17</li>
+  
+          <li><span>Group And File SMS :</span>Yes</li>
+  
+          <li><span>Dynamic SMS :</span> Yes (From xlsx)</li>
+  
+          <li class="grey"><a href="contact.html" class="button">Order Now</a></li>
+        </ul>
+      </div>
+      <!-- info end here -->
 
     <!-- ***** Footer Start ***** -->
     <footer>
