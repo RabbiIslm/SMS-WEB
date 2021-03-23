@@ -18,62 +18,62 @@
 
     <link rel="stylesheet" href="assets/css/style.css" />
     <style>
-        * {
-          box-sizing: border-box;
-        }
-        
+      * {
+        box-sizing: border-box;
+      }
+
+      .columns {
+        float: left;
+        width: 33.3%;
+        padding: 8px;
+      }
+
+      .price {
+        list-style-type: none;
+        border: 1px solid #eee;
+        margin: 0;
+        padding: 0;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+      }
+
+      .price:hover {
+        box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+      }
+
+      .price .header {
+        background-color: #111;
+        color: white;
+        font-size: 25px;
+      }
+
+      .price li {
+        border-bottom: 1px solid #eee;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .price .grey {
+        background-color: #eee;
+        font-size: 20px;
+      }
+
+      .button {
+        background-color: #4caf50;
+        border: none;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+      }
+
+      @media only screen and (max-width: 600px) {
         .columns {
-          float: left;
-          width: 33.3%;
-          padding: 8px;
+          width: 100%;
         }
-        
-        .price {
-          list-style-type: none;
-          border: 1px solid #eee;
-          margin: 0;
-          padding: 0;
-          -webkit-transition: 0.3s;
-          transition: 0.3s;
-        }
-        
-        .price:hover {
-          box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
-        }
-        
-        .price .header {
-          background-color: #111;
-          color: white;
-          font-size: 25px;
-        }
-        
-        .price li {
-          border-bottom: 1px solid #eee;
-          padding: 20px;
-          text-align: center;
-        }
-        
-        .price .grey {
-          background-color: #eee;
-          font-size: 20px;
-        }
-        
-        .button {
-          background-color: #4CAF50;
-          border: none;
-          color: white;
-          padding: 10px 25px;
-          text-align: center;
-          text-decoration: none;
-          font-size: 18px;
-        }
-        
-        @media only screen and (max-width: 600px) {
-          .columns {
-            width: 100%;
-          }
-        }
-        </style>
+      }
+    </style>
   </head>
 
   <body>
@@ -112,27 +112,46 @@
           <div class="col-md-12">
             <nav class="main-nav">
               <!-- ***** Logo Start ***** -->
-              <a href="index.html" class="logo">Bulk <em> SMS</em> <br> 01840325244</a>
+              <a href="index.html" class="logo"
+                >Bulk <em> SMS</em> <br />
+                01840325244</a
+              >
               <!-- ***** Logo End ***** -->
               <!-- ***** Menu Start ***** -->
               <ul class="nav">
                 <li><a href="index.html">Home</a></li>
                 <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                  <a
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    href="#"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Services</a
+                  >
                   <div class="dropdown-menu">
-                      <a class="dropdown-item" href="masking.html">Masking</a>
-                      <a class="dropdown-item" href="nonmasking.html">Non Masking</a>                    
+                    <a class="dropdown-item" href="masking.html">Masking</a>
+                    <a class="dropdown-item" href="nonmasking.html">Non Masking</a>
                   </div>
-              </li>
+                </li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Login</a>
+                  <a
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    href="#"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Login</a
+                  >
                   <div class="dropdown-menu">
-                      <a class="dropdown-item" href="http://masking.mtsms.xyz">Masking</a>
-                      <a class="dropdown-item" href="http://sms.mtsms.xyz/login">Non Masking</a>                    
+                    <a class="dropdown-item" href="http://masking.mtsms.xyz">Masking</a>
+                    <a class="dropdown-item" href="http://sms.mtsms.xyz/login">Non Masking</a>
                   </div>
-              </li>
+                </li>
               </ul>
               <a class="menu-trigger">
                 <span>Menu</span>
@@ -166,95 +185,104 @@
 
     <!-- info starts here -->
     <div class="columns">
-        <ul class="price">
-          <li class="header" style="background-color: #008cff">Basic</li>
-          <li class="grey"> PRICE ৳ 2750 BDT <br> .৫৫৳ / SMS  </li>
-          <li><span>Quantity: </span> 5000</li>
-          <li><span>Processing Fee: </span> 350 BDT</li>
-  
-          <li><span>validity: </span>1 Year</li>
-  
-          <li><span>Sender ID: </span>Fixed</li>
-  
-          <li><span>Incoming SMS Forward:</span> Yes</li>
-  
-          <li><span>API Access :</span> Yes</li>
-  
-          <li><span>WordPress Plugin :</span> Yes</li>
-  
-          <li><span>Fast Delivery :</span> Yes</li>
-  
-          <li><span>Delivery Report :</span>Yes</li>
-  
-          <li><span>Formats :</span>88017,017,17</li>
-  
-          <li><span>Group And File SMS :</span>Yes</li>
-  
-          <li><span>Dynamic SMS :</span> Yes (From xlsx)</li>
-          <li class="grey"><a href="contact.html" class="button">Order Now</a></li>
-        </ul>
-      </div>
-  
-      <div class="columns">
-        <ul class="price">
-          <li class="header" style="background-color: #ff7b00">Gold</li>
-          <li class="grey">PRICE ৳ 5300 BDT <br> .৫৩৳ / SMS</li>
-          <li><span>Quantity: </span> 10000</li>
-          <li><span>Processing Fee: </span> Free</li>
-          <li><span>validity:</span> 1 Year</li>
-  
-          <li><span>Sender ID:</span> Fixed</li>
-  
-          <li><span>Incoming SMS Forward:</span> Yes</li>
-  
-          <li><span>API Access :</span> Yes</li>
-  
-          <li><span>WordPress Plugin :</span> Yes</li>
-  
-          <li><span>Fast Delivery :</span> Yes</li>
-  
-          <li><span>Delivery Report :</span>Yes</li>
-  
-          <li><span>Formats :</span>88017,017,17</li>
-  
-          <li><span>Group And File SMS :</span>Yes</li>
-  
-          <li><span>Dynamic SMS :</span> Yes (From xlsx)</li>
-  
-          <li class="grey"><a href="contact.html" class="button">Order Now</a></li>
-        </ul>
-      </div>
-  
-      <div class="columns">
-        <ul class="price">
-          <li class="header" style="background-color: #4caf50">Premium</li>
-          <li class="grey">PRICE ৳ 10,200 BDT <br> .৫১৳ / SMS</li>
-          <li><span>Quantity: </span> 20000</li>
-          <li><span>Processing Fee: </span> Free</li>
-          <li><span>validity:</span> 1 Year</li>
-  
-          <li><span>Sender ID: </span>Fixed</li>
-  
-          <li><span>Incoming SMS Forward:</span> Yes</li>
-  
-          <li><span>API Access :</span> Yes</li>
-  
-          <li><span>WordPress Plugin :</span> Yes</li>
-  
-          <li><span>Fast Delivery :</span> Yes</li>
-  
-          <li><span>Delivery Report :</span>Yes</li>
-  
-          <li><span>Formats :</span>88017,017,17</li>
-  
-          <li><span>Group And File SMS :</span>Yes</li>
-  
-          <li><span>Dynamic SMS :</span> Yes (From xlsx)</li>
-  
-          <li class="grey"><a href="contact.html" class="button">Order Now</a></li>
-        </ul>
-      </div>
-      <!-- info end here -->
+      <ul class="price">
+        <li class="header" style="background-color: #008cff">Basic</li>
+        <li class="grey">
+          PRICE ৳ 2750 BDT <br />
+          .৫৫৳ / SMS
+        </li>
+        <li><span>Quantity: </span> 5000</li>
+        <li><span>Processing Fee: </span> 350 BDT</li>
+
+        <li><span>validity: </span>1 Year</li>
+
+        <li><span>Sender ID: </span>Fixed</li>
+
+        <li><span>Incoming SMS Forward:</span> Yes</li>
+
+        <li><span>API Access :</span> Yes</li>
+
+        <li><span>WordPress Plugin :</span> Yes</li>
+
+        <li><span>Fast Delivery :</span> Yes</li>
+
+        <li><span>Delivery Report :</span>Yes</li>
+
+        <li><span>Formats :</span>88017,017,17</li>
+
+        <li><span>Group And File SMS :</span>Yes</li>
+
+        <li><span>Dynamic SMS :</span> Yes (From xlsx)</li>
+        <li class="grey"><a href="contact.html" class="button">Order Now</a></li>
+      </ul>
+    </div>
+
+    <div class="columns">
+      <ul class="price">
+        <li class="header" style="background-color: #ff7b00">Gold</li>
+        <li class="grey">
+          PRICE ৳ 5300 BDT <br />
+          .৫৩৳ / SMS
+        </li>
+        <li><span>Quantity: </span> 10000</li>
+        <li><span>Processing Fee: </span> Free</li>
+        <li><span>validity:</span> 1 Year</li>
+
+        <li><span>Sender ID:</span> Fixed</li>
+
+        <li><span>Incoming SMS Forward:</span> Yes</li>
+
+        <li><span>API Access :</span> Yes</li>
+
+        <li><span>WordPress Plugin :</span> Yes</li>
+
+        <li><span>Fast Delivery :</span> Yes</li>
+
+        <li><span>Delivery Report :</span>Yes</li>
+
+        <li><span>Formats :</span>88017,017,17</li>
+
+        <li><span>Group And File SMS :</span>Yes</li>
+
+        <li><span>Dynamic SMS :</span> Yes (From xlsx)</li>
+
+        <li class="grey"><a href="contact.html" class="button">Order Now</a></li>
+      </ul>
+    </div>
+
+    <div class="columns">
+      <ul class="price">
+        <li class="header" style="background-color: #4caf50">Premium</li>
+        <li class="grey">
+          PRICE ৳ 10,200 BDT <br />
+          .৫১৳ / SMS
+        </li>
+        <li><span>Quantity: </span> 20000</li>
+        <li><span>Processing Fee: </span> Free</li>
+        <li><span>validity:</span> 1 Year</li>
+
+        <li><span>Sender ID: </span>Fixed</li>
+
+        <li><span>Incoming SMS Forward:</span> Yes</li>
+
+        <li><span>API Access :</span> Yes</li>
+
+        <li><span>WordPress Plugin :</span> Yes</li>
+
+        <li><span>Fast Delivery :</span> Yes</li>
+
+        <li><span>Delivery Report :</span>Yes</li>
+
+        <li><span>Formats :</span>88017,017,17</li>
+
+        <li><span>Group And File SMS :</span>Yes</li>
+
+        <li><span>Dynamic SMS :</span> Yes (From xlsx)</li>
+
+        <li class="grey"><a href="contact.html" class="button">Order Now</a></li>
+      </ul>
+    </div>
+    <!-- info end here -->
 
     <!-- ***** Footer Start ***** -->
     <footer>
